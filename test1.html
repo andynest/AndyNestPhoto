@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Serviços | Andrei Nestorov Fotografia</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+-->
+<!-- LOAD GOOGLE FONT OPEN SANS -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700" rel="stylesheet" type="text/css">
+<!-- END GOOGLE FONT OPEN SANS -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+<link rel="stylesheet" type="text/css" href="http://picssel.com/demos/demos.css" />
+<link rel="stylesheet" type="text/css" href="http://picssel.com/scripts/fancybox2.1.5/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="http://picssel.com/scripts/fancybox2.1.5/helpers/jquery.fancybox-buttons.css" />
+</head>
+<!--/head-->
+<body>
+<header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+         <a class="navbar-brand" href="index.html"><img src="images/anp.logo-white-tiny.png" alt="logo"></a> </div>
+      <div class="collapse navbar-collapse">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="portfolio.html">FOTOS</a></li>
+            <li><a class="active" href="services.html">SERVIÇOS</a></li>
+            <li><a href="about-us.html">SOBRE MIM</a></li>
+            <!--                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Siga-me <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="blog-item.html">Blog Single</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li class="divider"></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Use</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li> 
+                    <li><a href="contact-us.html">CONTATO</a></li>
+-->
+         </ul>
+      </div>
+   </div>
+</header>
+<!--/header-->
+<section id="title" class="emerald">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-6">
+            <h1>SERVIÇOS</h1>
+            <h2>Create a filtered image gallery (Isotope style) with Fancybox and jQuery [DEMO]</h2>
+            <p>Nosso trabalho não se limita a tirar fotografias. Oferecemos pacotes de serviços relacionados aos temas de fotografia.</p>
+         </div>
+         <div class="col-sm-6">
+            <ul class="breadcrumb pull-right">
+               <li><a href="index.html">Home</a></li>
+               <li class="active">Serviços</li>
+            </ul>
+         </div>
+      </div>
+   </div> 
+</section>
+<!--/#title-->
+<section id="portfolio" class="container">
+   <ol id="filters">
+      <li data-filter="all">Todas</li>
+            <li><a class="active btn btn-default" href="#" data-filter="action">Ação</a></li>
+            <li><a class="btn btn-default" href="#" data-filter="architecture">Arq</a></li>
+
+      <li data-filter="family">Familia</li>
+   </ol> 
+     
+   
+   
+   <ul class="portfolio-items col-3">
+      <li data-filter-class='["action", "people"]'> <img src="images/portfolio/a2t.jpg" height="247" width="370">
+         <p>London Art</p>
+      </li>
+      <li data-filter-class='["architecture", "glamour"]'> <img src="images/portfolio/a3t.jpg" height="247" width="370">
+         <p>Berlin Art</p>
+      </li>
+      <li data-filter-class='["action", "video"]'> <img src="images/portfolio/a4t.jpg" height="247" width="370">
+         <p>Berlin Video</p>
+      </li>
+   </ul>
+</section>
+<!--wrap--> 
+<!-- include jQuery --> 
+<script src="js/jquery.min.js"></script> 
+
+<!-- Include the imagesLoaded plug-in --> 
+<script src="js/jquery.imagesloaded.js"></script> 
+
+<!-- Include the plug-in --> 
+<script src="js/jquery.wookmark.js"></script> 
+
+<!-- Once the page is loaded, initalize the plug-in. --> 
+<script type="text/javascript">
+    (function ($){
+      $('#tiles').imagesLoaded(function() {
+        // Prepare layout options.
+        var options = {
+          autoResize: true, // This will auto-update the layout when the browser window is resized.
+          container: $('#main'), // Optional, used for some extra CSS styling
+          offset: 2, // Optional, the distance between grid items
+          itemWidth: 210, // Optional, the width of a grid item
+          fillEmptySpace: true // Optional, fill the bottom of each column with widths of flexible height
+        };
+
+        // Get a reference to your grid items.
+        var handler = $('#tiles li'),
+            filters = $('#filters li');
+
+        // Call the layout function.
+        handler.wookmark(options);
+
+        /**
+         * When a filter is clicked, toggle it's active state and refresh.
+         */
+        function onClickFilter(e) {
+          var $item = $(e.currentTarget),
+              activeFilters = [],
+              filterType = $item.data('filter');
+
+          if (filterType === 'all') {
+            filters.removeClass('active');
+          } else {
+            $item.toggleClass('active');
+
+            // Collect active filter strings
+            filters.filter('.active').each(function() {
+              activeFilters.push($(this).data('filter'));
+            });
+          }
+
+          handler.wookmarkInstance.filter(activeFilters, 'or');
+        }
+
+        // Capture filter click events.
+        $('#filters').on('click.wookmark-filter', 'li', onClickFilter);
+      });
+    })(jQuery);
+  </script>
+</body>
+</html>
